@@ -343,12 +343,12 @@ private boolean validateInputs()
             boolean result=passengerDAO.addProduct(p);
             if(result)
             {
-                JOptionPane.showMessageDialog(null,"Product added successfully","Success!",JOptionPane.INFORMATION_MESSAGE);  
+                JOptionPane.showMessageDialog(null,"Ticket added successfully","Success!",JOptionPane.INFORMATION_MESSAGE);  
                 cleartext();
                 this.getNewTrainNo();
                 return;
             }
-            JOptionPane.showMessageDialog(null,"Product not saved!","Not saved!",JOptionPane.ERROR_MESSAGE);  
+            JOptionPane.showMessageDialog(null,"Ticket not generated!","Not saved!",JOptionPane.ERROR_MESSAGE);  
           
         }
         catch(NumberFormatException ex)
