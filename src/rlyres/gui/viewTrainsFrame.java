@@ -218,7 +218,7 @@ private void loadProductDetails() {
             List <trainPojo> al=trainDAO.gettrainDetails();
             if(al.isEmpty())
             {
-                JOptionPane.showMessageDialog(null,"No products present in the stock");
+                JOptionPane.showMessageDialog(null,"No Trains found");
                 return;
             }
             Object[] rows=new Object[6];
