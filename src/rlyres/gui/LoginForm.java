@@ -223,7 +223,7 @@ private boolean validateInputs()
             boolean result=usersDAO.validateUser(u);
             if(result==false)
             {
-                JOptionPane.showMessageDialog(null,"Invalid userid/password/usertype!","Error!",JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null,"Invalid userid/password","Error!",JOptionPane.ERROR_MESSAGE);
                 return;  
             }
             UserProfile.setUserid(userid);
